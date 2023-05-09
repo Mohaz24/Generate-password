@@ -1,0 +1,50 @@
+<html>
+  <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Allura&family=Caveat&family=Covered+By+Your+Grace&family=Dancing+Script&family=Gloria+Hallelujah&family=Indie+Flower&family=Inter:wght@100;400&family=Kalam:wght@300&family=Karla:wght@200;400;800&family=Kaushan+Script&family=Montserrat:wght@100&family=Orbitron:wght@400;500;800&family=Poppins:ital,wght@0,100;1,100&family=Roboto:wght@100&family=Shadows+Into+Light&family=Smythe&family=Source+Sans+Pro:wght@200&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <h1>Generate a <span>random password</span></h1>
+        <p>Never use an insecure password again.</p>
+        <button id="btn" class="container---btn">Generate password</button>
+      </div>
+    <div class="container">
+          <label>All </label>
+          <input type="checkbox" class="chars" id="chars"/>
+          <label>Symbols </label>
+          <input type="checkbox" class="symbols" id="symbols"/> <br>
+         <label> Letters
+          <input type="checkbox"  class="letters" id="letters"  /> 
+          <label> Numbers  </label>
+          <input type="checkbox" class="number" id="number"  /> 
+    </div>
+    
+    </header>
+    <section>
+      <div class="container">
+        <p class="container---password">Choose the length of your password</p>
+        <input type="range" min="5"  max="15" id="ranges" name="length" />
+        <p id="length"></p>
+        <div class="container---line"></div>
+        <div class="container---place-holder">
+        <input type="text" class="input" id="input"  />
+          <input type="text"  class="input" id="inputs" />
+        </div>
+      </div>
+    </section>
+    <script src="index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,134 @@
+body {
+  margin: 0;
+  padding: 0;
+  
+}
+ #ranges{
+    margin-top: 0;
+    margin-bottom: 0px;
+    width: 211px;
+    height: 39px;
+    cursor: pointer;
+ }
+ label,
+ #length,
+ .container---password{
+    color: #000;
+    font-family: 'Karla',sans-serif;
+ }
+
+h1{
+    font-family: 'Karla',sans-serif;
+    font-weight: 800;
+    font-size: 2.5rem; 
+    line-height: 40px;
+    margin-bottom: 0em;
+}
+
+span{
+    letter-spacing: -0.025em;
+    color: #4ADF86;
+    display: block;
+    margin-bottom: 0em;
+}
+
+label{
+    color: black;
+    font-size: 1rem;
+    color: #000;
+}
+
+input{
+    cursor: pointer;
+}
+
+input,
+button,
+p{
+      font-family: 'Inter',sans-serif;
+      cursor: pointer;
+}
+
+p{
+    font-weight: 400;
+    font-size: 1.25rem; 
+    line-height: 28px;
+    color: #D5D4D8;
+    margin-top: 0em;
+}
+
+.input{
+    background: #273549;
+    width: 211px;
+    height: 39px;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 32px;
+    text-align: center;
+    color: #55F991;
+    margin-top: 20px;
+}
+
+button{
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 24px;
+    color: #FFFFFF;
+    border: none;
+}
+
+input,
+.container---btn{
+     border: none;
+     border-radius: 6px;
+}
+
+
+.container{
+    padding-top: 3.125em; 
+    padding-left: 5em;
+    margin: 0 auto;
+    width: 500px;
+}
+
+
+.container---place-holder{
+    display: flex;
+    grid-gap: 14px;
+}
+
+.container---btn{
+    width: 191px;
+    height: 42px;
+    background: #10B981;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    margin: 25px 0px 0px 0px; 
+    
+}
+.container---line{
+    width: 440px;
+    border: 1px solid #2F3E53;
+    margin: 0 0em auto;
+}
+
+.container---password{
+  margin-bottom: 0;
+  color: #000;
+}
+
+
+
+@media(max-width:600px){
+    .container---place-holder{
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       gap: 2px;
+    }
+
+    .container---line{
+        width: 370px;
+        border: 1px solid #2F3E53;
+        margin: 0 0em auto;
+    }
+}
